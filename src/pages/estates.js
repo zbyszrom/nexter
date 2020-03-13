@@ -1,17 +1,13 @@
 import React from "react"
-//import { Link } from "gatsby"
-
+import ForEstates from '../components/forEstates'
 import Layout from "../components/layout"
 
 
 const Estates = () => {
 return(
-  <Layout>
-    
-  <h1>Hi from estates</h1>
-  <p>Welcome to estates</p>
-  
-</Layout>
+  <Layout>  
+  <ForEstates/>  
+  </Layout>
 )
 
 }

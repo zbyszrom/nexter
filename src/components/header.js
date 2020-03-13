@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
 import logo from '../images/logo.png'
 import logoBb from '../images/logo-bbc.png'
 import logoFo from '../images/logo-forbes.png'
