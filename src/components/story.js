@@ -9,7 +9,7 @@ storyImg: allFile(filter: {name: {in: ["story-1", "story-2"]}}) {
       node {
         childImageSharp {
           fluid {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_tracedSVG
             
           }
         }

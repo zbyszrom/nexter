@@ -9,7 +9,7 @@ galleryImg: allFile(sort: {fields: name}, filter: {relativeDirectory: {eq: "gall
         node {
           childImageSharp {
             fluid {
-                ...GatsbyImageSharpFluid
+                ...GatsbyImageSharpFluid_tracedSVG
             }
           }
         }
